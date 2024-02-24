@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: 30% 70%; /* Adjusted column widths */
+  font-family: "Poppins", sans-serif;
+}
+
+.mapper {
+  grid-column: 2 / span 1; /* Mapper starts from the second column */
+  width: 100%;
+}
+
+.list {
+  grid-column: 1 / span 1; /* List starts from the first column */
+  height: 500px;
+  width: 500px;
+
+  overflow-y: auto;
+}
+.list .places {
+  line-height: 3;
+}
+
+.leaflet-container {
+  height: 90vh;
+  width: 100%;
+  border-radius: 1rem;
+}

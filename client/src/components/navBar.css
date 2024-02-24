@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+}
+.logo{
+    max-width: 120px;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    width: 24rem;
+    padding: 50px;
+}
+.mapsearch{
+    height:40px ;
+   margin-top: 40px;
+   border-radius: 10px;
+   width: 380px;
+}
