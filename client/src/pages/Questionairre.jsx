@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "./Questionairre.css"
 
 function Questionnaire() {
   const [formData, setFormData] = useState({
@@ -44,10 +45,10 @@ function Questionnaire() {
         />
       </div>
       <div>
-        <label htmlFor="ageCategory">Type of Trip</label>
+        <label htmlFor="TypeofTrip">Type of Trip</label>
         <select
-          id="ageCategory"
-          name="ageCategory"
+          id="TypeofTrip"
+          name="TypeofTrip"
           value={formData.ageCategory}
           onChange={handleChange}
         >
@@ -57,20 +58,31 @@ function Questionnaire() {
 
           <option value="Educational">Educational</option>
           <option value="Leisure">Leisure</option>
-          <option value="Solo">Solo</option>
         </select>
       </div>
-
-      <div>
-        <label htmlFor="timeFrame">Time Frame:</label>
-        <input
-          type="text"
-          id="timeFrame"
-          name="timeFrame"
-          value={formData.timeFrame}
-          onChange={handleChange}
-        />
+      <div className="dates">
+        <div>
+          <label htmlFor="fromDate">From:</label>
+          <input
+            type="date"
+            id="fromDate"
+            name="fromDate"
+            value={formData.fromDate}
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <label htmlFor="toDate">To:</label>
+          <input
+            type="date"
+            id="toDate"
+            name="toDate"
+            value={formData.toDate}
+            onChange={handleChange}
+          />
+        </div>
       </div>
+
       <div>
         <label htmlFor="travelingCount">Traveling Count:</label>
         <input

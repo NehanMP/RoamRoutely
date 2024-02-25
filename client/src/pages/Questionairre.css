@@ -1,0 +1,11 @@
+.dates {
+  display: flex;
+}
+
+.dates > div {
+  margin-right: 10px;
+}
+
+.dates > div:last-child {
+  margin-right: 0;
+}
