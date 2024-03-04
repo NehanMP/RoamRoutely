@@ -249,6 +249,15 @@ def print_Itinerary(numberDays):
     print(' '.join(map(str, Trip_End_Itinerary)))
 
 
+#Itinerary2 = ["Start the day with breakfast at the hotel ", hotel, ". Head to the first destination of the day: ", destination1, ". It's located ", distance1,
+ #             " away from the hotel, and it'll take approximately ", time1, " to get there. Proceed to the recommended lunch spot, ", restaurant1, " which is ",
+  #            distance2, " away from ", destination1, " with an estimated travel time of ", time2, ". Next, visit the popular landmark ", landmark1, " located ",
+   #           distance3, " from the restaurant. For dinner, dine at ", restaurant2, ", situated ", distance4, " away from ", landmark1, " with an estimated travel time of ",
+    #          time3, ". Finally, return to the hotel for the night, which is ", distance5, " away from ", restaurant2, " and will take approximately ", time4, "."]
+
+#Trip_End_Itinerary2 = ["Travel from the hotel ", hotel, " back to your home ", home_location, ", which is ", distance6, " away. The estimated travel time is ", time5, "."]
+
+
 
 hotels = []
 restaurants = []
@@ -299,8 +308,4 @@ print()
 print("Restaurants =", restaurants)
 print()
 print("Attractions =", attractions)
-print()
-print()
 
-
-print_Itinerary(days)
