@@ -1,7 +1,14 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const NavBar = () => {
+  const location = useLocation();
+  useEffect(() => {
+    console.log(location.pathname);
+  });
+
   const navBarItems = [
     { id: 1, name: "Home" },
     { id: 2, name: "About Us" },
@@ -32,12 +39,24 @@ const NavBar = () => {
 
       {/* button div */}
       <div>
-        <button className="bg-red-600 text-white font-bold py-2 px-4 rounded-full">
-          Sign Out
-        </button>
+        {location.pathname === "/SignIn" || location.pathname === "/SignUp" ? (
+          <div className="flex gap-2 items-center">
+            <button className="bg-red-600 text-white font-bold py-2 px-4 rounded-full">
+              <Link to="/SignIn">Sign In</Link>
+            </button>
+            <button className="bg-red-600 text-white font-bold py-2 px-4 rounded-full">
+              <Link to="/SignUp">Sign Up</Link>
+            </button>
+          </div>
+        ) : (
+          <button className="bg-red-600 text-white font-bold py-2 px-4 rounded-full">
+            <Link to="/SignIn">Sign Out</Link>
+          </button>
+        )}
       </div>
     </nav>
   );
 };
 
 export default NavBar;
+
