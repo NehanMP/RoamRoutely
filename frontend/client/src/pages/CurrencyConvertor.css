@@ -1,0 +1,33 @@
+.ccMain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 200px;
+  background: rgba(226, 255, 250, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 1px solid rgba(226, 255, 250, 0.3); */
+}
+.bg-cc {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  /* background-image: url("../../public/images/pexels-patrik-felker-6220559.jpg"); Background image */
+
+  height: 100vh;
+  padding: 60px;
+}
+.currency-row-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  text-align: center;
+}
