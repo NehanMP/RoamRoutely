@@ -13,10 +13,10 @@ import string
 warnings.filterwarnings("ignore", category=pd.errors.DtypeWarning)
 
 # Read data from CSV file with explicit data type specification
-attractions_data = pd.read_csv('C:\\IIT\\second_year\\SDGP\\roam_routely\\dataset\\dataset.csv', dtype={'Attractions': str})
+attractions_data = pd.read_csv('C:\\IIT\\second_year\\SDGP\\RoamRoutely\\dataset\\dataset.csv', dtype={'Attractions': str})
 
 # Load the dataset
-destination = pd.read_csv('C:\\IIT\\second_year\\SDGP\\roam_routely\\dataset\\dataset.csv')
+destination = pd.read_csv('C:\\IIT\\second_year\\SDGP\\RoamRoutely\\dataset\\dataset.csv')
 
 # Separate features (X) and target variables (Y)
 X = destination['District']
