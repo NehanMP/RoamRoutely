@@ -1,0 +1,31 @@
+/* Footer.css */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: #000000;
+    color: #fff;
+    padding-bottom: 2rem;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .footer-container div {
+    margin-bottom: 0.5rem;
+  }
+  
+  .copyright:before {
+    content: "\00a9";
+  }
+  .logo-footer {
+    width: 80px;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

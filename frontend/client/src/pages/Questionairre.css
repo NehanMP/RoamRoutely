@@ -1,0 +1,81 @@
+.bg-q {
+  background-color: rgb(210, 210, 210);
+  background-image: url("../../public/images/Craft\ Your\ Dream\ Adventure\ \(2\).png"); /* Background image */
+  background-size: cover; /* Adjust as needed */
+  background-position: right;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-q {
+ /* From https://css.glass */
+/* From https://css.glass */
+background: rgba(231, 239, 192, 0.32);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(231, 239, 192, 0.1);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.content-q form {
+  display: inline-block;
+}
+
+.content-q label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.content-q input,
+.content-q select {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.content-q button {
+  padding: 10px 20px;
+  background-color: #2bc3de;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content-q button:hover {
+  background-color: #0056b3;
+}
+
+.content-q .dates div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.content-q .dates input[type="date"] {
+  width: 140px;
+}
+
+.content-q p {
+  margin-top: 20px;
+}
+
+.q-link a,
+a:visited,
+a:link {
+  color: inherit; /* Inherit color from parent element */
+  text-decoration: none; /* Optionally, add underline */
+}
+
+.q-link a:hover {
+  color: #ef1010; /* Change color on hover if needed */
+}

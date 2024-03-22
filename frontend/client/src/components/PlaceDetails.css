@@ -1,0 +1,95 @@
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.gold-star {
+  color: #ffc107;
+  margin-right: 5px;
+}
+
+.card-reviews {
+  font-size: 14px;
+  color: #666;
+  margin-left: 5px;
+}
+
+.card-price,
+.card-ranking,
+.card-award,
+.card-cuisine,
+.card-address,
+.card-phone {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card-actions a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.card-actions a:hover {
+  color: #0056b3;
+}
+
+.card-cuisine {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.card-address,
+.card-phone {
+  display: flex;
+  align-items: center;
+}
+
+.card-address svg,
+.card-phone svg {
+  margin-right: 5px;
+}

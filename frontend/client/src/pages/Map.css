@@ -1,0 +1,71 @@
+.container {
+  display: grid;
+  grid-template-columns: 20fr 70fr;
+  grid-template-rows: 10fr 90fr;
+  column-gap: 20px;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden; 
+  background-image: url("../../public/images/pexels-mikka-1025990.jpg");
+  background-size: cover; /* Adjust as needed */
+  background-position: bottom-right;
+}
+
+.district-dropdown {
+  grid-area: 1/2/2/3;
+  align-self: center;
+  width: 70%;
+}
+
+.district-dropdown select {
+  width: 30%;
+  padding: 10px;
+ /* From https://css.glass */
+background: rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.mapper {
+  grid-column: 2 / span 1;
+  width: 100%;
+}
+
+.list {
+  grid-column: 1 / span 1;
+  height: calc(90vh - 40px); /* Adjusted height to fit within container */
+  width: 500px;
+  overflow-y: auto;
+}
+
+.list .places {
+  line-height: 3;
+}
+
+.leaflet-container {
+  height: 90vh;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.button-container {
+  margin: 10px 15px;
+}
+
+.search-input {
+  width: calc(100% - 40px);
+  padding: 10px 40px 10px 10px; /* Adjust padding to make space for icon */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}

@@ -1,0 +1,71 @@
+
+.bg-signup {
+    background-color: rgb(210, 210, 210);
+    background-image: url("../../public/images/New\ Here\ \(1\).png"); /* Background image */
+    background-size: cover; /* Adjust as needed */
+    background-position: center;
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content-signup {
+    background: rgba(226, 255, 250, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(118, 225, 220, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    align-items: center;
+  
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  
+  .content-signup form {
+    display: inline-block;
+  }
+  
+  .content-signup label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .content-signup input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .content-signup button {
+    padding: 10px 20px;
+    background-color: #2bc3de;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .content-signup button:hover {
+    background-color: #0056b3;
+  }
+  
+  .content-signup p {
+    margin-top: 20px;
+  }
+  .signup-link a,
+  a:visited,
+  a:link {
+    color: inherit; /* Inherit color from parent element */
+    text-decoration: none; /* Optionally, add underline */
+  }
+  
+  .signup-link a:hover {
+    color: #ef1010; /* Change color on hover if needed */
+  }
+  

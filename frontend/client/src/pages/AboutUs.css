@@ -1,0 +1,37 @@
+.title {
+  color: rgb(174, 245, 231);
+
+  /* font-size: 44px; */
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+
+.content {
+  color: white;
+
+  /* font-size: 20px; */
+  font-weight: bold;
+  max-width: 1400px;
+  margin: 40px auto;
+}
+.bg {
+  background-color: rgb(210, 210, 210);
+  background-image: url("../../public/images/pexels-patrik-felker-6220559.jpg"); /* Background image */
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  height: 100vh;
+  padding: 60px;
+}
+.bg-content {
+  background-color: rgb(96, 92, 92);
+  text-align: center;
+  
+  /* From https://css.glass */
+background: rgba(226, 255, 250, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(226, 255, 250, 0.3);
+}
