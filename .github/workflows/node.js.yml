@@ -19,7 +19,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Navigate to RoamRoutely directory
-      run: cd RoamRoutely
+      run: cd RoamRoutely/frontend
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
