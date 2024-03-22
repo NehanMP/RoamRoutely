@@ -1,7 +1,7 @@
 {
   "name": "rr",
   "version": "1.0.0",
-  "homepage": "https://NehanMP.github.io/rr",
+  "homepage": "https://NehanMP.github.io/RoamRoutely",
   "description": "",
   "type": "module",
   "main": "index.js",
