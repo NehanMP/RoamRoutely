@@ -1,6 +1,6 @@
 # RoamRoutely 
 
-<li>RoamRoutely is an innovative automated travel itinerary generator designed to streamline the process of trip planning. Here's an elaboration on how it works:</li>
+RoamRoutely is an innovative automated travel itinerary generator designed to streamline the process of trip planning. Here's an elaboration on how it works:
 
 1. User Input: Users input their travel preferences through a form provided by RoamRoutely. This form collects information such as destination, travel dates, budget, interests, and any specific requirements.
    
@@ -23,6 +23,20 @@
 <li>Liseni Perera</li>
 <li>Zainab Hassandeen</li>
 
+## Technology Used
+<ul>Front-End</ul>
+   <li>React</li>
+   <li>HTML</li>
+   <li>CSS</li>
+   <li>Node Express</li>
+   
+<ul>Back-End</ul>
+   <li>Python</li>
+   <li>Flask</li>
+
+<ul>Database</ul>
+   <li>MongoDB</li>
+
 ## Note
 <li>Make sure to install nodejs and run 'npm install' to install the modules</li>
 <li>Install python extension to the IDLE</li>
@@ -30,3 +44,6 @@
 
 ## License
 <li>This project is licensed under the MIT License - see the LICENSE.md file for details.</li>
+
+## Acknowledgments
+<li>Special thanks to IIT institution affiliated with the university of Westminster.</li>
