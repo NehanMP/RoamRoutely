@@ -24,17 +24,17 @@ RoamRoutely is an innovative automated travel itinerary generator designed to st
 <li>Zainab Hassandeen</li>
 
 ## Technology Used
-<ul>Front-End</ul>
+<ul><b>Front-End</b></ul>
    <li>React</li>
    <li>HTML</li>
    <li>CSS</li>
    <li>Node Express</li><br>
    
-<ul>Back-End</ul>
+<ul><b>Back-End</b></ul>
    <li>Python</li>
    <li>Flask</li><br>
 
-<ul>Database</ul>
+<ul><b>Database</b></ul>
    <li>MongoDB</li>
 
 ## Note
