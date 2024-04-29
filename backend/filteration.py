@@ -18,7 +18,7 @@ mydb = myclient["RR-auth"]
 mycol = mydb["userinputs"]
 itinerary_collection = mydb["itineraries"]
 
-destination = pd.read_csv('C:\\IIT\\second_year\\SDGP\\RoamRoutely\\dataset\\dataset.csv')
+destination = pd.read_csv('C:\\IIT\\second_year\\RoamRoutely\\dataset\\dataset.csv')
 
 load_dotenv()
 secret_api_key = os.getenv("secret_api_key")
