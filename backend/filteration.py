@@ -1,5 +1,6 @@
 # Import libraries
 import random
+import panda
 import numpy as np
 import pandas as pd
 from fuzzywuzzy import fuzz
